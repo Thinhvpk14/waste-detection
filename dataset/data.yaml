@@ -1,6 +1,6 @@
-train: ../dataset/train/images
-val: ../dataset/valid/images
-test: ../dataset/test/images
+train: /Users/thinhvp/Desktop/computer-vision/waste-detection/dataset/train/images
+val: /Users/thinhvp/Desktop/computer-vision/waste-detection/dataset/valid/images
+test: /Users/thinhvp/Desktop/computer-vision/waste-detection/dataset/test/images
 
 nc: 6
 names: ['hdpe', 'metal', 'paper', 'pet', 'pp', 'ps']
