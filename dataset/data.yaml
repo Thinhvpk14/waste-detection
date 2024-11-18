@@ -1,0 +1,13 @@
+train: ../dataset/train/images
+val: ../dataset/valid/images
+test: ../dataset/test/images
+
+nc: 6
+names: ['hdpe', 'metal', 'paper', 'pet', 'pp', 'ps']
+
+roboflow:
+  workspace: bxc
+  project: waste-detection-4oujo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bxc/waste-detection-4oujo/dataset/1
